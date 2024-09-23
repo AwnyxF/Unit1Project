@@ -15,10 +15,10 @@ body {
 }
 
 header {
-background-color: #EAD2AC;
-margin: auto; 
-text-align: center;
-font-size: 32px;
+    background-color: #EAD2AC;
+    margin: auto; 
+    text-align: center;
+    font-size: 32px;
 }
 
 nav { 
@@ -54,11 +54,8 @@ main {
     background-color:  #ffebcf;
     padding-top: 3%; 
     margin-left: 2%;
-    margin-right: 2%;
-    
-    }
-    
-
+    margin-right: 2%; 
+}
 /* 5 section rules */
 #home {
     display: block;
@@ -105,3 +102,4 @@ main {
     font-size: 18px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
