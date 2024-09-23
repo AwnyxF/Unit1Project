@@ -1,0 +1,107 @@
+/* CSS Reset */
+body, header, nav, main, footer, img,  h1 {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+} 
+
+
+
+/* Style rules for header and nav */ 
+body {
+  
+    background-color: #9CAFB7;
+
+}
+
+header {
+background-color: #EAD2AC;
+margin: auto; 
+text-align: center;
+font-size: 32px;
+}
+
+nav { 
+    text-align: center; 
+    background-color: #FE938C;
+    margin: auto;
+    font-size: 18px;
+
+}
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: .5%;
+    text-align: center;
+}
+
+
+/* body style rules */
+
+
+main {
+   display: flex; 
+   justify-content: space-between;
+    
+    background-color:  #ffebcf;
+    padding-top: 3%; 
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    }
+    
+
+/* 5 section rules */
+#home {
+    display: block;
+    height: 200px;
+    width: auto;
+    text-align: center;
+    border-style:inset; 
+    border-color:#4281A4; 
+    border-width: 4px;
+    margin: 2%; 
+    background-color:#ffebcf; 
+    padding: 3%;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#left {
+    display: block;
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    border-style:inset; 
+    border-color:#4281A4; 
+    border-width: 4px;
+    margin: 2%; 
+    background-color:#ffebcf; 
+    padding: 3%;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#right {
+
+    display: block;
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    border-style:inset; 
+    border-color:#4281A4; 
+    border-width: 4px;
+    margin: 2%; 
+    background-color:#ffebcf; 
+    padding: 3%;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
